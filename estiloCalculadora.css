@@ -1,0 +1,101 @@
+*{
+display: 0;
+color: rgb(221, 220, 211);
+
+}
+body{
+    background: rgb(178, 198, 202);
+    
+}
+.linha{
+    background: rgb(92, 92, 92);
+    width: 400px;
+    height: 10px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    margin-top: 20px;
+    margin-left: -30px;
+    border-radius: 0px;
+}
+.base{
+    background: rgb(27, 27, 27);
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    border-radius: 30px;
+    box-shadow: 10px 30px 50x rgb(30, 30, 30);
+    align-items: center;
+    margin-top: 80px;
+}
+
+.base input{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 20px;
+    padding: 1px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+.base label{
+    display: inline-block;
+    background-color: rgb(27, 27, 27);
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.base h1{
+    margin-left: 90px;
+}
+.nome{
+    margin-top: 50px;
+    color: black;
+}
+.altura{
+    margin-top: -50px;
+    color: black;
+}
+
+.peso{
+    margin-top: -50px;
+    color: black;
+}
+#txt{
+    position: absolute;
+    align-self: 18px;
+}
+#Calcular{
+    width: 207px;
+    height: 30px;
+    display: inline;
+    margin-top: -15px;
+    margin-left: 115px;
+    padding: 1px;
+    margin-top: -40;
+    background-color: rgb(37, 37, 38);
+    color: rgb(221, 220, 211);
+    cursor: pointer;
+    border-color: rgb(66, 65, 65);
+    border-color: white;
+    border-radius: 30px;
+}
+#tela{
+    width: 300px;
+    height: 160px;
+    background: rgb(37, 37, 38);
+    margin-left: 65px;
+    margin-top: 30px;
+    border-color: white;
+    border-style: outset;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15pt;
+    
+    
+}
